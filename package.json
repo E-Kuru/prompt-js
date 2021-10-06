@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/E-Kuru/prompt-js#readme",
   "dependencies": {
-    "prompt": "^1.2.0"
+    "prompt": "^1.2.0",
+    "random-word-fr": "^1.0.3"
   }
 }
