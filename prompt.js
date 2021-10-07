@@ -6,13 +6,13 @@ prompt.start();
 
 function randomNumber (num){
 
-  prompt.get({ name: "q",description: "Devine le Nombre Mystère" }, function (err, result) {
+  prompt.get({ name: "answer",description: "Devine le Nombre Mystère" }, function (err, result) {
 
-    if(result.q < num){
+    if(result.answer < num){
       console.log("Ta réponse est trop basse");
       randomNumber(num)
     }
-    else if (result.q > num){
+    else if (result.answer > num){
       console.log("Ta réponse est trop haute");
       randomNumber(num)
     }

@@ -1,7 +1,5 @@
 // Table 
 
-var args = process.argv.slice(2)
-
 var argument1 = parseInt(process.argv[2])
 
 function multiply (number){
